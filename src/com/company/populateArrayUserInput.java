@@ -38,5 +38,10 @@ public class populateArrayUserInput {
 
         }
 
+        // print using enhanced for loop
+        for (int i = 0; i < array.length; i++){
+            System.out.println("my word is " + array[i]);
+        }
+
     }
 }
