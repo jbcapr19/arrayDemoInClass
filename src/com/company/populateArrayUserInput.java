@@ -20,25 +20,22 @@ public class populateArrayUserInput {
             System.out.println(ar2[i]);
         }
 
+        /*
+        * populate array with user input
+        * */
         // initialize a new array
         String [] array = new String[5];
 
         // take user input
         Scanner keybd = new Scanner(System.in);
         for (String i : array){
+
             // populate array
             System.out.println("please enter a word");
             i = keybd.nextLine();
 
-            //System.out.println("my word is " + array[i]);
-            // we move the above statement outside of this for loop
-            // because we don't want it to print every time it loops through
-            // but just once at the end
-        }
+            System.out.println("my word is " + i);
 
-        // print using enhanced for loop
-        for (String element : array){
-            System.out.println("my word is " + element);
         }
 
     }
